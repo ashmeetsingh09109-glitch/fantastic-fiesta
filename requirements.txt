@@ -1,0 +1,11 @@
+# Runtime dependencies for phish_analyzer.py
+#
+# None. The tool uses only the Python standard library
+# (argparse, email, html.parser, ipaddress, json, re, urllib).
+#
+# Requires Python 3.8 or newer.
+#
+# If you add optional features later, list them here, e.g.:
+# requests>=2.31        # reputation lookups (Google Safe Browsing, VirusTotal)
+# python-whois>=0.9     # domain age checks
+# tldextract>=5.1       # accurate registered-domain parsing
